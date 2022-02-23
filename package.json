@@ -39,6 +39,8 @@
     "three": "^0.125.0"
   },
   "scripts": {
+    "build": "netlify-lambda build express",
+    "start": "nodemon server-local.js"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:storybook": "build-storybook -o build-storybook",
